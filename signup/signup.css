@@ -1,0 +1,120 @@
+body{
+
+    margin-left: 300px;
+    margin-top: 70px;
+    background-size: cover;
+    
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/037/814/719/small_2x/ai-generated-autumn-leaves-in-the-forest-nature-background-photo.jpg);
+}
+       #signupform{
+        display: flex;
+        flex-direction: column;
+        background-color:lightcyan;
+        height: 360px;
+        width: 400px;
+        border-radius: 10px;
+        gap: 10px;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px  0px 10px rgb(115, 167, 183),0px 0px 10px lightblue;
+       } 
+       #userName{
+        padding: 8px;
+        width: 200px;
+        border-radius: 5px;
+       }
+       #userEmail{
+        padding: 8px;
+        width: 200px;
+        border-radius: 5px;
+       }
+       #userPswd{
+         padding: 8px;
+         width: 200px;
+         border-radius: 5px;
+        
+       
+       }
+       button{
+        padding: 8px;
+        width: 220px;
+         margin: 20px;
+        background-color:orangered;
+        color: white;
+        border-radius: 5px
+
+       }
+        
+
+    
+    
+     /* Media Query for screens <= 424px (Mobile Portrait mode and very small screens) */
+  @media (max-width: 424px) {
+    body {
+      margin-left: 10px;
+      margin-top: 50px;
+    }
+
+    #signupform {
+      width: 90%; 
+      height: auto; 
+      padding: 15px;
+    }
+
+    #userName, #userEmail, #userPswd {
+      width: 100%; 
+    }
+
+    button {
+      width: 100%; 
+      margin: 10px 0;
+    }
+  }
+
+  /* Media Query for screens > 425px and <= 767px (Tablets, and smaller laptops) */
+  @media (min-width: 425px) and (max-width: 767px) {
+    body {
+      margin-left: 50px;
+      margin-top: 80px;
+    }
+
+    #signupform {
+      width: 80%; 
+      height: auto;
+      padding: 20px; 
+    }
+
+    #userName, #userEmail, #userPswd {
+      width: 100%; 
+    }
+
+    button {
+      width: 100%; 
+      margin: 15px 0;
+    }
+  }
+
+  /* Media Query for screens >= 768px and <= 1024px (Tablets and Small Desktops) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    body {
+      margin-left: 200px;
+      margin-top: 150px;
+    }
+
+    #signupform {
+      width: 70%; 
+      height: auto;
+      padding: 25px;
+    }
+
+    #userName, #userEmail, #userPswd {
+      width: 90%; 
+    }
+
+    button {
+      width: 90%; 
+    }
+  }
+    
+ 
