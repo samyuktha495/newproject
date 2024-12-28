@@ -48,6 +48,10 @@ body {
    font-size: 20px;
    font-weight: bold;
   }
+  .prev-name, .next-name {
+     color:blue;
+     font-size: 20px;
+  }
   
   .year {
     margin: 20px 0;

@@ -1,9 +1,10 @@
 
 const monthNameEl = document.getElementById("month-name");
 const prevDateEl = document.getElementById("prev-date");
+const prevNameEl = document.getElementById("prev-name");
 const dayNameEl = document.getElementById("day-name");
-const dayNameEle = document.getElementById("day-name1");
 const dayNumEl = document.getElementById("day-number");
+const nextNameEl=document.getElementById("next-name");
 const nextDateEl = document.getElementById("next-date");
 const yearEl = document.getElementById("year");
 
@@ -18,7 +19,7 @@ dayNameEl.innerText = date.toLocaleString("en", {
   weekday: "long",
 });
 
-prevDateEl.innerText = previousDate.toLocaleString("en", { month: "long" ,
+prevDateEle.innerText = previousDate.toLocaleString("en", { month: "long" ,
   day:"numeric", year: "numeric" });
 nextDateEl.innerText = nextDate.toLocaleString("en", { month: "long",
    day: "numeric", year: "numeric" });
